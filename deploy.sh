@@ -20,7 +20,7 @@ git commit -m 'update commit'
 
 # 部署到 github
 git remote add github git@github.com:3cChange/test.git
-git push -f github master
+git push -f github gh-pages
 
 #git remote add gitee git@gitee.com:toimc/notes-page.git
 #git push -f gitee master
