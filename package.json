@@ -1,0 +1,23 @@
+{
+  "name": "vitepress-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "rimraf docs/.vitepress/dist",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.imooc.com/study_bif_front/vitepress-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37",
+    "rimraf": "^3.0.2"
+  }
+}
