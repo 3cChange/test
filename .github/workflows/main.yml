@@ -31,7 +31,7 @@ jobs:
     # Vuepress Build.
     - name: Generates Pages
       run: |
-        npm run build
+        npm run docs:build
 
     - name: Deploy Github Pages🚀
       uses: JamesIves/github-pages-deploy-action@4.1.0
